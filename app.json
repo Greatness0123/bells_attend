@@ -4,11 +4,11 @@
     "slug": "bellsattend",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/nobellsattendplus(2).png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/nobellsattendplus(2).png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/nobellsattendplus(2).png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.gruco.bellsattend"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/nobellsattendplus(2).png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "380204f0-c455-40aa-b186-645ad1d09eab"
+      }
+    },
+    "platforms": ["ios", "android", "web"]
   }
 }
